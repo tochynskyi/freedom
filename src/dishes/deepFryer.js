@@ -1,0 +1,66 @@
+export const deepFryer = [
+  {
+    id: 1,
+    type: "deepFryer",
+    name: "Фрі 200 г/30 г",
+    description: '',
+    price: "65 грн",
+  },
+  {
+    id: 2,
+    type: "deepFryer",
+    name: "Нагетси 200 г/30 г",
+    description: '',
+    price: "70 грн",
+  },
+  {
+    id: 3,
+    type: "deepFryer",
+    name: "Картопля по-селянськи 200 г/30 г",
+    description: '',
+    price: "65 грн",
+  },
+  {
+    id: 4,
+    type: "deepFryer",
+    name: "Стріпси курячі 200г/30г",
+    description: '',
+    price: "95 грн",
+  },
+  {
+    id: 5,
+    type: "deepFryer",
+    name: "Кільця кальмарів 200г/30г",
+    description: '',
+    price: "115 грн",
+  },
+  {
+    id: 6,
+    type: "deepFryer",
+    name: "Сирні палички  100г/30г",
+    description: '',
+    price: "95 грн",
+  },
+  {
+    id: 8,
+    type: "deepFryer",
+    name: "Кульки моцарели 150г/30г",
+    description: '',
+    price: "125 грн",
+  },
+  {
+    id: 9,
+    type: "deepFryer",
+    name: "Креветочні чіпси 100г/30г",
+    description: '',
+    price: "50 грн",
+  },
+  {
+    id: 10,
+    type: "deepFryer",
+    name: "Креветка тигрова 200г/30г",
+    description: '',
+    price: "125 грн",
+  },
+
+];

@@ -1,0 +1,56 @@
+@import "../../../styles/colors.scss";
+
+.container {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	// display: flex;
+	// flex-direction: column;
+	height: 110px;
+	margin: 0px 0px 30px 0px;
+	padding: 20px;
+	background-color: $light-green;
+	overflow-x: scroll;
+	cursor: grab;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	background-color: $light-green;
+	z-index: 2;
+	padding: 0;
+	&Link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		min-width: 145px;
+		height: 100%;
+		background-color: $background-main;
+		margin: 0px 25px 0px 0px;
+		padding: 10px;
+		&:last-child {
+			margin: 0;
+		}
+	}
+	&Icon {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 30px;
+		height: 30px;
+	}
+	&Text {
+		color: $black;
+		text-align: center;
+		// text-transform: uppercase;
+	}
+}
