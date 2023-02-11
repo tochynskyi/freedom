@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './AuthPage.module.scss'
-export const AuthPage = () => {
+import styles from './LoginPage.module.scss'
+export const LoginPage = () => {
   return (
 	 <div className={styles.container}>
 		<div className={styles.form}>
