@@ -4,7 +4,7 @@ export const appetizer = [
     type: "appetizer",
     name: "Брускети з лососем і авокадо (3 шт)",
     description: "",
-    price: "125 грн",
+    price: "150 грн",
   },
   {
     id: 2,
