@@ -90,14 +90,14 @@ export const appetizer = [
     type: "appetizer",
     name: "Устриці Fine de Clair",
     description: "Франція, Атлантичний океан",
-    price: "350 грн/4 шт",
+    price: "450 грн/4 шт",
   },
   {
     id: 14,
     type: "appetizer",
     name: "Устриці Saint Patrick",
     description: "Ірландія, Атлантичний океан",
-    price: "450 грн/ 4 шт",
+    price: "550 грн/ 4 шт",
   },
   {
     id: 15,
