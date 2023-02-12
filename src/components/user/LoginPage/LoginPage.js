@@ -1,16 +1,17 @@
 import React, { useState } from "react";
-import { useAuth } from "../../../hooks/useAuth";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../../../firebase";
-import styles from "./LoginPage.module.scss";
 import { useNavigate } from "react-router-dom";
+import styles from "./LoginPage.module.scss";
+import { signInWithEmailAndPassword } from "@firebase/auth";
+import { auth } from "../../../firebase";
+
 
 export const LoginPage = () => {
-  const { setAuthToken } = useAuth();
   const navigate = useNavigate();
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
   const [errorSignIn, setErrorSignIn] = useState(false);
+
+  
   const onLogin = (e) => {
     setLogin(e.target.value);
   };
@@ -21,16 +22,12 @@ export const LoginPage = () => {
 
   const signIn = async (e) => {
     e.preventDefault();
-    signInWithEmailAndPassword(auth, login, password)
-      .then((userCredential) => {
-			console.log(userCredential.user.accessToken)
-        setErrorSignIn(false);
-        setAuthToken(userCredential.user.accessToken);
-        navigate("/admin");
-      })
-      .catch((error) => {
-        setErrorSignIn(true);
-      });
+    try {
+      await signInWithEmailAndPassword(auth, login, password);
+      navigate("/admin");
+    } catch {
+      setErrorSignIn(true);
+    }
   };
 
   return (

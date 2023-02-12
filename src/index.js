@@ -3,19 +3,26 @@ import ReactDOM from "react-dom/client";
 import "./styles/index.scss";
 import reportWebVitals from "./reportWebVitals";
 import App from "./components/App/App";
-import { AuthProvider } from "./context/AuthProvider";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  FirebaseAppProvider,
+  AuthProvider,
+  FirestoreProvider,
+} from "reactfire";
+import { BrowserRouter as Router } from "react-router-dom";
+import { auth, firebaseApp, firestoreDatabase } from "./firebase";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <AuthProvider>
-        <Routes>
-          <Route path="/*" element={<App />} />
-        </Routes>
+    <FirebaseAppProvider firebaseApp={firebaseApp}>
+      <AuthProvider sdk={auth}>
+        <FirestoreProvider sdk={firestoreDatabase}>
+          <Router>
+            <App />
+          </Router>
+        </FirestoreProvider>
       </AuthProvider>
-    </BrowserRouter>
+    </FirebaseAppProvider>
   </React.StrictMode>
 );
 
