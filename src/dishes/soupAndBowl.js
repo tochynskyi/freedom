@@ -12,7 +12,7 @@ export const soupAndBowl = [
     type: "soupAndBowl",
     name: "Грибний крем-суп з грінками",
     description: "шампіньйони, картопля, цибуля, плавлений сир",
-    price: "75 грн",
+    price: "95 грн",
   },
   {
     id: 7,

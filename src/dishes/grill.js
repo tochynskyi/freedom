@@ -11,7 +11,7 @@ export const grill = [
     type: "grill",
     name: "Куряча грудка з овочами та сирним соусом",
     description: "",
-    price: "150 грн",
+    price: "175 грн",
   },
   {
     id: 3,
