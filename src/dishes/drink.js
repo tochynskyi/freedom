@@ -18,7 +18,7 @@ export const drink = [
   {
     id: 5,
     type: "drink",
-    name: "Coca-cola 1л",
+    name: "Coca-cola 0.75л",
     description: "",
     price: "50 грн",
   },
