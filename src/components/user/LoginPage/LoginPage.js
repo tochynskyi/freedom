@@ -11,7 +11,6 @@ export const LoginPage = () => {
   const [password, setPassword] = useState("");
   const [errorSignIn, setErrorSignIn] = useState(false);
 
-  
   const onLogin = (e) => {
     setLogin(e.target.value);
   };
