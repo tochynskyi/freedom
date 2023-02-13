@@ -32,7 +32,7 @@ export const Header = () => {
         <div className={styles.contacts}>
           <div className={styles.contactsPhone}>
             <img src={telephoneIcon} alt="phone icon" />
-            <a href="/">000 00 00 000</a>
+            <a href="tel:0935559303">093 55 59 303</a>
           </div>
           <a
             target="_blank"
