@@ -23,6 +23,7 @@ export const LoginPage = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, login, password);
+      setErrorSignIn(false);
       navigate("/admin");
     } catch {
       setErrorSignIn(true);
@@ -33,14 +34,14 @@ export const LoginPage = () => {
     <div className={styles.container}>
       <form onSubmit={signIn} className={styles.form}>
         <h1 className={styles.formTitle}>Увійти</h1>
-        {errorSignIn && <p>Неправильний логін або пароль</p>}
+        {errorSignIn && <p className={styles.formErrorMassage}>Неправильний логін або пароль</p>}
         <input
           className={styles.formInput}
           value={login}
           onChange={onLogin}
           name="login"
           type="text"
-          placeholder="Введіть логін..."
+          placeholder="Введіть логін"
         />
         <input
           className={styles.formInput}
@@ -48,9 +49,9 @@ export const LoginPage = () => {
           onChange={onPassword}
           name="password"
           type="password"
-          placeholder="Введіть пароль..."
+          placeholder="Введіть пароль"
         />
-        <button type="submit" className={styles.formButton}>
+        <button type="submit" className={styles.formButtonSubmit}>
           Увійти
         </button>
       </form>

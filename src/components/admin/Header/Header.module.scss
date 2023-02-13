@@ -1,0 +1,17 @@
+@import "../../../styles/colors.scss";
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	background-color: $background-secondary;
+	padding: 10px 15px;
+	justify-content: flex-end;
+}
+
+.logoutButton {
+	border-radius: 5px;
+	border: 0px;
+	background-color: $background-main;
+	color: $black;
+}
