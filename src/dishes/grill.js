@@ -14,13 +14,6 @@ export const grill = [
     price: "175 грн",
   },
   {
-    id: 3,
-    type: "grill",
-    name: "Стейк зі свинини з картоплею по-селянськи",
-    description: "",
-    price: "175 грн",
-  },
-  {
     id: 4,
     type: "grill",
     name: "Камамбер з томатами чері",
