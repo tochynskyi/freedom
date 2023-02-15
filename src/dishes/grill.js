@@ -28,13 +28,6 @@ export const grill = [
     price: "175 грн",
   },
   {
-    id: 6,
-    type: "grill",
-    name: "Медальйони з картопляним пюре",
-    description: "",
-    price: "175 грн",
-  },
-  {
     id: 7,
     type: "grill",
     name: "Крильця бафало",
