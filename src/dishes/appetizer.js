@@ -127,4 +127,11 @@ export const appetizer = [
     description: "",
     price: "600 грн/4 шт",
   },
+    {
+    id: 19,
+    type: "appetizer",
+    name: "Хлібна нарізка",
+    description: "",
+    price: "20 грн",
+  },
 ];

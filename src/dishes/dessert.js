@@ -20,11 +20,4 @@ export const dessert = [
     description: "",
     price: "50 грн",
   },
-  {
-	id: 4,
-	type: "dessert",
-	name: "Міні-тортик",
-	description: "",
-	price: "90 грн",
- },
 ];

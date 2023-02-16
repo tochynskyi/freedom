@@ -55,4 +55,11 @@ export const grill = [
 	description: '',
 	price: "250 грн",
  },
+ {
+	id: 11,
+	type: "grill",
+	name: "Кордон-блю з картопляним пюре",
+	description: '',
+	price: "195 грн",
+ },
 ];
