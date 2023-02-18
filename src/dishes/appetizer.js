@@ -67,7 +67,7 @@ export const appetizer = [
   {
     id: 10,
     type: "appetizer",
-    name: "Равлики по-прованські",
+    name: "Равлики з грибами",
     description: "",
     price: "150 грн",
   },
