@@ -16,8 +16,8 @@ export const dessert = [
   {
     id: 3,
     type: "dessert",
-    name: "Макарон",
+    name: "3 шоколада",
     description: "",
-    price: "50 грн",
+    price: "95 грн",
   },
 ];
