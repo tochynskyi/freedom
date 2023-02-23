@@ -62,5 +62,12 @@ export const deepFryer = [
     description: '',
     price: "125 грн",
   },
-
+  {
+	id: 11,
+	type: "deepFryer",
+	name: "Фрі-сет  600 г",
+	description:
+	  "Нагетси, сирні палички, фрі, кільця кальмарів, стріпси, чіпси",
+	price: "500 грн",
+ },
 ];

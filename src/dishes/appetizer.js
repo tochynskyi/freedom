@@ -34,14 +34,7 @@ export const appetizer = [
     description: "Прошуто, салямі, шинка, фует, маринований перець чилі",
     price: "275 грн",
   },
-  {
-    id: 6,
-    type: "appetizer",
-    name: "Фрі-сет  600 г",
-    description:
-      "Нагетси, сирні палички, фрі, кільця кальмарів, стріпси, чіпси",
-    price: "500 грн",
-  },
+
   {
     id: 7,
     type: "appetizer",
