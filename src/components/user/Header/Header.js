@@ -23,9 +23,9 @@ export const Header = () => {
           </a>
 
           <p className={styles.infoWork}>
-            <span className={styles.infoWorkDays}>Будні:</span>
-            <span className={styles.infoWorkHours}>09:00 - 21:00</span>|
-            <span className={styles.infoWorkDays}>Вихідні:</span>
+            <span className={styles.infoWorkDays}>Пн-чт:</span>
+            <span className={styles.infoWorkHours}>9:00 - 21:00</span>|
+            <span className={styles.infoWorkDays}>Пт-нд:</span>
             <span className={styles.infoWorkHours}>10:00 - 22:00</span>
           </p>
         </div>
