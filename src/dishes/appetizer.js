@@ -35,6 +35,20 @@ export const appetizer = [
     price: "275 грн",
   },
   {
+	id: 6,
+	type: "appetizer",
+	name: "Велике плато холодних закусок",
+	description: "",
+	price: "500 грн",
+ },
+ {
+	id: 7,
+	type: "appetizer",
+	name: "Мікс холодних закусок",
+	description: "",
+	price: "300 грн",
+ },
+  {
     id: 8,
     type: "appetizer",
     name: "Равлики по-бургунські",

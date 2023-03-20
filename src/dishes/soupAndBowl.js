@@ -61,4 +61,11 @@ export const soupAndBowl = [
       "рис, шампіньйони, авокадо, перець, хіяші, помідор, огірок, кунжут",
     price: "125 грн",
   },
+  {
+    id: 9,
+    type: "soupAndBowl",
+    name: "Пад-тай",
+    description: "",
+    price: "225 грн",
+  },
 ];

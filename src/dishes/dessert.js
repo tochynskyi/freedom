@@ -30,7 +30,7 @@ export const dessert = [
  {
 	id: 5,
 	type: "dessert",
-	name: "Еклер полуниця",
+	name: "Еклер полуничний",
 	description: "",
 	price: "65 грн",
  },
