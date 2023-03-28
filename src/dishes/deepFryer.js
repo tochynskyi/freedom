@@ -60,7 +60,7 @@ export const deepFryer = [
     type: "deepFryer",
     name: "Креветка тигрова 200г/30г",
     description: '',
-    price: "125 грн",
+    price: "150 грн",
   },
   {
 	id: 11,

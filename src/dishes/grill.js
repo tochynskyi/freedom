@@ -2,9 +2,9 @@ export const grill = [
   {
     id: 1,
     type: "grill",
-    name: "Лосось та пюре з брюсельської капусти",
+    name: "Лосось та пюре з броколі",
     description: "",
-    price: "275 грн",
+    price: "325 грн",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const grill = [
     type: "grill",
     name: "Камамбер з томатами чері",
     description: "",
-    price: "125 грн",
+    price: "150 грн",
   },
   {
     id: 5,
