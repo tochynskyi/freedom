@@ -28,7 +28,7 @@ export const salad = [
     type: "salad",
     name: "З лососем гриль",
     description: "мікс салата, лосось-гриль, огірок, чері, крем-сир, кунжут",
-    price: "175 грн",
+    price: "195 грн",
   },
   {
     id: 5,

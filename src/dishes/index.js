@@ -10,6 +10,8 @@ import { deepFryer } from "./deepFryer";
 import { dessert } from "./dessert";
 import { drink } from "./drink";
 import { hotDrink } from "./hotDrink";
+import { alcohol } from "./alcohol";
+
 
 export const dishes = {
   breakfest,
@@ -23,4 +25,5 @@ export const dishes = {
   dessert,
   drink,
   hotDrink,
+  alcohol
 };

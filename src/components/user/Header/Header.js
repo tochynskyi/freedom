@@ -24,9 +24,9 @@ export const Header = () => {
 
           <p className={styles.infoWork}>
             <span className={styles.infoWorkDays}>Пн-чт:</span>
-            <span className={styles.infoWorkHours}>9:00 - 21:00</span>|
+            <span className={styles.infoWorkHours}>10:00 - 22:00</span>|
             <span className={styles.infoWorkDays}>Пт-нд:</span>
-            <span className={styles.infoWorkHours}>10:00 - 22:00</span>
+            <span className={styles.infoWorkHours}>10:00 - 23:00</span>
           </p>
         </div>
         <div className={styles.contacts}>

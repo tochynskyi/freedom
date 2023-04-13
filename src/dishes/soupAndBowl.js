@@ -68,4 +68,11 @@ export const soupAndBowl = [
     description: "",
     price: "225 грн",
   },
+  {
+	id: 10,
+	type: "soupAndBowl",
+	name: "Кхао пад з куркою",
+	description: "",
+	price: "175 грн",
+ }
 ];

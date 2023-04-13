@@ -34,4 +34,18 @@ export const dessert = [
 	description: "",
 	price: "65 грн",
  },
+ {
+	id: 6,
+	type: "dessert",
+	name: "Еклер груша дор-блю",
+	description: "",
+	price: "65 грн",
+ },
+ {
+	id: 7,
+	type: "dessert",
+	name: "Макаронс в асортименті",
+	description: "",
+	price: "50 грн/1 шт",
+ },
 ];

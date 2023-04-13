@@ -52,6 +52,10 @@ export const Menu = () => {
         <h2 className={styles.sectionTitle}>Гарячі напої</h2>
         <MenuList dishes={dishes.hotDrink} />
       </section>
+		<section id="alcohol" className={styles.section}>
+        <h2 className={styles.sectionTitle}>Алкоголь</h2>
+        <MenuList dishes={dishes.alcohol} />
+      </section>
     </div>
   );
 };

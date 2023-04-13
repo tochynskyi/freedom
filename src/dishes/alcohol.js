@@ -1,0 +1,51 @@
+export const alcohol = [
+  {
+    id: 1,
+    type: "alcohol",
+    name: "",
+    description: "",
+    price: "",
+  },
+  {
+    id: 2,
+    type: "alcohol",
+    name: "",
+    description: "",
+    price: "",
+  },
+  {
+    id: 3,
+    type: "alcohol",
+    name: "",
+    description: "",
+    price: "",
+  },
+  {
+    id: 4,
+    type: "alcohol",
+    name: "",
+    description: "",
+    price: "",
+  },
+  {
+    id: 5,
+    type: "alcohol",
+    name: "",
+    description: "",
+    price: "",
+  },
+  {
+    id: 6,
+    type: "alcohol",
+    name: "",
+    description: "",
+    price: "",
+  },
+  {
+    id: 7,
+    type: "alcohol",
+    name: "",
+    description: "",
+    price: "",
+  },
+];
