@@ -30,6 +30,13 @@ export const soupAndBowl = [
     price: "150 грн",
   },
   {
+    id: 11,
+    type: "soupAndBowl",
+    name: "Том кха",
+    description: "Тайський суп на основі кокосового молока з бульйоном, куркою, грибами і овочами",
+    price: "150 грн",
+  },
+  {
     id: 3,
     type: "soupAndBowl",
     name: "Боул з креветками (400 г)",
@@ -69,10 +76,10 @@ export const soupAndBowl = [
     price: "225 грн",
   },
   {
-	id: 10,
-	type: "soupAndBowl",
-	name: "Кхао пад з куркою",
-	description: "",
-	price: "175 грн",
- }
+    id: 10,
+    type: "soupAndBowl",
+    name: "Кхао пад з куркою",
+    description: "",
+    price: "175 грн",
+  },
 ];

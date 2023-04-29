@@ -13,6 +13,7 @@ import sushiIcon from "../../../assets/navbarIcons/sushi.svg";
 import sushiSetIcon from "../../../assets/navbarIcons/sushiSet.svg";
 import deepFryerIcon from "../../../assets/navbarIcons/deepFryer.png";
 import alcoholIcon from "../../../assets/navbarIcons/alcohol.svg";
+import cocktaillIcon from "../../../assets/navbarIcons/cocktails.svg";
 
 
 export const NavSlider = () => {
@@ -39,7 +40,7 @@ export const NavSlider = () => {
             <p className={styles.navbarText}>Роли</p>
           </Link>
         </li>
-		  <li className={styles.navbarLink}>
+        <li className={styles.navbarLink}>
           <Link activeClass="active" smooth spy to="sushiSet">
             <img
               src={sushiSetIcon}
@@ -125,7 +126,17 @@ export const NavSlider = () => {
             <p className={styles.navbarText}>Гарячі напої</p>
           </Link>
         </li>
-		  <li className={styles.navbarLink}>
+        <li className={styles.navbarLink}>
+          <Link activeClass="active" smooth spy to="cocktail">
+            <img
+              src={cocktaillIcon}
+              className={styles.navbarIcon}
+              alt="Alcohol icon"
+            />
+            <p className={styles.navbarText}>Коктейлі</p>
+          </Link>
+        </li>
+        <li className={styles.navbarLink}>
           <Link activeClass="active" smooth spy to="alcohol">
             <img
               src={alcoholIcon}

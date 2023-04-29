@@ -11,7 +11,7 @@ import { dessert } from "./dessert";
 import { drink } from "./drink";
 import { hotDrink } from "./hotDrink";
 import { alcohol } from "./alcohol";
-
+import { cocktail } from "./cocktail";
 
 export const dishes = {
   breakfest,
@@ -25,5 +25,6 @@ export const dishes = {
   dessert,
   drink,
   hotDrink,
-  alcohol
+  alcohol,
+  cocktail,
 };

@@ -8,7 +8,7 @@ export const Menu = () => {
     <div className={styles.container}>
       <section id="breakfest" className={styles.section}>
         <h2 className={styles.sectionTitle}>
-          Сніданки <span className={styles.sectionWorkHours}>9:00-14:00</span>
+          Сніданки <span className={styles.sectionWorkHours}>10:00-15:00</span>
         </h2>
         <MenuList dishes={dishes.breakfest} />
       </section>
@@ -52,7 +52,11 @@ export const Menu = () => {
         <h2 className={styles.sectionTitle}>Гарячі напої</h2>
         <MenuList dishes={dishes.hotDrink} />
       </section>
-		<section id="alcohol" className={styles.section}>
+      <section id="cocktail" className={styles.section}>
+        <h2 className={styles.sectionTitle}>Коктейлі</h2>
+        <MenuList dishes={dishes.cocktail} />
+      </section>
+      <section id="alcohol" className={styles.section}>
         <h2 className={styles.sectionTitle}>Алкоголь</h2>
         <MenuList dishes={dishes.alcohol} />
       </section>
