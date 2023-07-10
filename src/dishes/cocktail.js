@@ -1,5 +1,12 @@
 export const cocktail = [
   {
+    id: 9,
+    type: "cocktail",
+    name: "Pina Colada",
+    description: "Ром, ананасовий сік, кокосове молоко, гренадин",
+    price: "150 грн",
+  },
+  {
     id: 1,
     type: "cocktail",
     name: "Aperol Spritz",
@@ -17,14 +24,14 @@ export const cocktail = [
     id: 3,
     type: "cocktail",
     name: "Jägermeister Mojito",
-    description: "М’ята, лайм,лід, jäegermeister, спрайт",
+    description: "М’ята, лайм,лід, jägermeister, спрайт",
     price: "150 грн",
   },
   {
     id: 4,
     type: "cocktail",
-    name: "Jäeger Bomb",
-    description: "Jäegermeister, burn, лід",
+    name: "Jäger Bomb",
+    description: "Jägermeister, burn, лід",
     price: "125 грн",
   },
   {

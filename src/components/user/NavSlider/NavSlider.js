@@ -73,7 +73,7 @@ export const NavSlider = () => {
         <li className={styles.navbarLink}>
           <Link activeClass="active" smooth spy to="soupAndBowl">
             <img src={soupIcon} className={styles.navbarIcon} alt="Food icon" />
-            <p className={styles.navbarText}>Супи/Боули</p>
+            <p className={styles.navbarText}>Супи/Гарніри</p>
           </Link>
         </li>
         <li className={styles.navbarLink}>

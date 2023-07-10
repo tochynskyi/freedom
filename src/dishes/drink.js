@@ -23,13 +23,13 @@ export const drink = [
     price: "50 грн",
   },
   { id: 6, type: "drink", name: "Вода 0,5л", description: "", price: "25 грн" },
-  {
-    id: 7,
-    type: "drink",
-    name: "Комбуча 350мл",
-    description: "",
-    price: "75 грн",
-  },
+//   {
+//     id: 7,
+//     type: "drink",
+//     name: "Комбуча 350мл",
+//     description: "",
+//     price: "75 грн",
+//   },
   {
     id: 8,
     type: "drink",

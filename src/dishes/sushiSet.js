@@ -24,6 +24,13 @@ export const sushiSet = [
     price: "600 грн",
   },
   {
+    id: 13,
+    type: "sushiSet",
+    name: "Сет Шанхай",
+    description: "Гранд, Везувій, сакура, бонсай",
+    price: "650 грн",
+  },
+  {
     id: 4,
     type: "sushiSet",
     name: "Сет насолода 900г/32 кус",
@@ -82,11 +89,10 @@ export const sushiSet = [
     price: "500 грн",
   },
   {
-	id: 12,
-	type: "sushiSet",
-	name: "Сет запечених ролів",
-	description:
-	  "",
-	price: "550 грн",
- },
+    id: 12,
+    type: "sushiSet",
+    name: "Сет запечених ролів",
+    description: "",
+    price: "550 грн",
+  },
 ];

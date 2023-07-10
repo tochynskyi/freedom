@@ -29,7 +29,7 @@ export const Menu = () => {
         <MenuList dishes={dishes.salad} />
       </section>
       <section id="soupAndBowl" className={styles.section}>
-        <h2 className={styles.sectionTitle}>Супи/Боули</h2>
+        <h2 className={styles.sectionTitle}>Супи/Гарніри</h2>
         <MenuList dishes={dishes.soupAndBowl} />
       </section>
       <section id="grill" className={styles.section}>

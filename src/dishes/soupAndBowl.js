@@ -72,14 +72,14 @@ export const soupAndBowl = [
     id: 9,
     type: "soupAndBowl",
     name: "Пад-тай",
-    description: "",
+    description: "рисова лапша з тигровими креветками, омлетом тамаго, арахісом, тофу і синьою цибулею в соусі пад тай",
     price: "225 грн",
   },
   {
     id: 10,
     type: "soupAndBowl",
     name: "Кхао пад з куркою",
-    description: "",
+    description: "тайський рис з овочами, куркою і омлетом тамаго з лаймом і слайсами огірків",
     price: "175 грн",
   },
 ];

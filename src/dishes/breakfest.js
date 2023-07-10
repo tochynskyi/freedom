@@ -127,4 +127,18 @@ export const breakfest = [
     description: "",
     price: "150 грн",
   },
+  {
+	id: 17,
+	type: "breakfest",
+	name: "Млинці з лососем з вершковим соусом",
+	description: "",
+	price: "150 грн",
+ },
+ {
+	id: 18,
+	type: "breakfest",
+	name: "Млинці з сиром",
+	description: "",
+	price: "150 грн",
+ },
 ];

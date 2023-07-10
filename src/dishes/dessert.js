@@ -7,13 +7,6 @@ export const dessert = [
     price: "90 грн",
   },
   {
-    id: 2,
-    type: "dessert",
-    name: "Брауні",
-    description: "",
-    price: "75 грн",
-  },
-  {
     id: 3,
     type: "dessert",
     name: "3 шоколада",
@@ -47,5 +40,26 @@ export const dessert = [
 	name: "Макаронс в асортименті",
 	description: "",
 	price: "50 грн/1 шт",
+ },
+ {
+	id: 8,
+	type: "dessert",
+	name: "Бельгійська вафля класична з морозивом і ягодами",
+	description: "",
+	price: "150 грн",
+ },
+ {
+	id: 9,
+	type: "dessert",
+	name: "Сирники зі сметаною і джемом",
+	description: "",
+	price: "150 грн",
+ },
+ {
+	id: 10,
+	type: "dessert",
+	name: "Млинці з сиром",
+	description: "",
+	price: "150 грн",
  },
 ];
