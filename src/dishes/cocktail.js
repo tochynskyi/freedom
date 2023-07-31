@@ -7,6 +7,13 @@ export const cocktail = [
     price: "150 грн",
   },
   {
+	id: 10,
+	type: "cocktail",
+	name: "Голуба лагуна",
+	description: "Ром, спрайт, сироп blue curacao",
+	price: "100 грн",
+ },
+  {
     id: 1,
     type: "cocktail",
     name: "Aperol Spritz",
