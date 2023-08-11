@@ -105,6 +105,27 @@ export const alcohol = [
     price: "50мл - 100грн/0.5л - 1000грн/0.7л - 1300грн",
   },
   {
+    id: 29,
+    type: "alcohol",
+    name: "Jack Daniels Apple",
+    description: "",
+    price: "50мл - 100грн",
+  },
+  {
+    id: 30,
+    type: "alcohol",
+    name: "Jack Daniels Fire",
+    description: "",
+    price: "50мл - 100грн",
+  },
+  {
+    id: 31,
+    type: "alcohol",
+    name: "Jack Daniels Honey",
+    description: "",
+    price: "50мл - 100грн/0.5л - 1000грн",
+  },
+  {
     id: 6,
     type: "alcohol",
     name: "Jim Beam",
@@ -124,6 +145,20 @@ export const alcohol = [
     name: "Capitan Morgan",
     description: "",
     price: "50мл - 60грн/0.5л - 600грн",
+  },
+  {
+    id: 32,
+    type: "alcohol",
+    name: "Ром Captain Morgan Dark",
+    description: "",
+    price: "50мл - 60грн",
+  },
+  {
+    id: 33,
+    type: "alcohol",
+    name: "Ромовий напій Captain Morgan Tiki Mango Pineapple",
+    description: "",
+    price: "50мл - 60грн",
   },
   {
     id: 8,

@@ -9,7 +9,7 @@ export const cocktail = [
   {
 	id: 10,
 	type: "cocktail",
-	name: "Голуба лагуна",
+	name: "Blue Laguna",
 	description: "Ром, спрайт, сироп blue curacao",
 	price: "100 грн",
  },
@@ -68,5 +68,12 @@ export const cocktail = [
     name: "Froze",
     description: "Просеко, пюре полуничне",
     price: "100 грн",
+  },
+    {
+    id: 11,
+    type: "cocktail",
+    name: "Jack Daniel’s fire",
+    description: "Мʼята, лимонний сік, яблучний сік, апельсин",
+    price: "150 грн",
   },
 ];
