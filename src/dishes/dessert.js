@@ -18,14 +18,14 @@ export const dessert = [
 	type: "dessert",
 	name: "Тарт малиновий",
 	description: "",
-	price: "70 грн",
+	price: "75 грн",
  },
  {
 	id: 5,
 	type: "dessert",
 	name: "Тарт шоколадний",
 	description: "",
-	price: "70 грн",
+	price: "75 грн",
  },
 //  {
 // 	id: 6,
@@ -39,7 +39,7 @@ export const dessert = [
 	type: "dessert",
 	name: "Макаронс в асортименті",
 	description: "",
-	price: "50 грн/1 шт",
+	price: "55 грн/1 шт",
  },
  {
 	id: 8,
