@@ -6,6 +6,13 @@ export const dessert = [
     description: "",
     price: "90 грн",
   },
+   {
+	id: 6,
+	type: "dessert",
+	name: "Баскський чізкейк (матча)",
+	description: "",
+	price: "95 грн",
+ },
   {
     id: 3,
     type: "dessert",
@@ -27,13 +34,7 @@ export const dessert = [
 	description: "",
 	price: "75 грн",
  },
-//  {
-// 	id: 6,
-// 	type: "dessert",
-// 	name: "Еклер груша дор-блю",
-// 	description: "",
-// 	price: "65 грн",
-//  },
+
  {
 	id: 7,
 	type: "dessert",
@@ -47,7 +48,7 @@ export const dessert = [
 	name: "Бельгійська вафля класична з морозивом і ягодами",
 	description: "",
 	price: "150 грн",
- },
+ }, 
  {
 	id: 9,
 	type: "dessert",

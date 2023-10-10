@@ -78,13 +78,13 @@ export const breakfest = [
     description: "",
     price: "150 грн",
   },
-  {
-    id: 10,
-    type: "breakfest",
-    name: "Панкейк з кленовим сиропом",
-    description: "",
-    price: "150 грн",
-  },
+  // {
+  //   id: 10,
+  //   type: "breakfest",
+  //   name: "Панкейк з кленовим сиропом",
+  //   description: "",
+  //   price: "150 грн",
+  // },
   {
     id: 11,
     type: "breakfest",
@@ -99,13 +99,13 @@ export const breakfest = [
     description: "",
     price: "150 грн",
   },
-  {
-    id: 13,
-    type: "breakfest",
-    name: "Круасан з ветчиною і томатами",
-    description: "",
-    price: "150 грн",
-  },
+  // {
+  //   id: 13,
+  //   type: "breakfest",
+  //   name: "Круасан з ветчиною і томатами",
+  //   description: "",
+  //   price: "150 грн",
+  // },
   {
     id: 14,
     type: "breakfest",

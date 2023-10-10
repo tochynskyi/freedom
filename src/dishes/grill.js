@@ -1,5 +1,12 @@
 export const grill = [
   {
+    id: 12,
+    type: "grill",
+    name: "Смажена дорада з лимоном, розмарином та соусом",
+    description: "",
+    price: "250 грн",
+  },
+  {
     id: 1,
     type: "grill",
     name: "Лосось та пюре з броколі",
